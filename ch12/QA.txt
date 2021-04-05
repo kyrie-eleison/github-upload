@@ -1,0 +1,12 @@
+1. Pointer Arithmetic
+
+if int *p, p + j is equivalent to p + (j * 4) (as an address value) (int: 4 bytes)
+if double *p, p + j is equivalent to p + (j * 8) (double: 8 bytes)
+
+2. Array Variable as a Parameter
+
+not only pointer variable = array variable in this case, but also it can be assigned a new pointer value
+
+3. is an Array Variable a Pointer?
+
+in fact, the C compiler converts it to a pointer when necessary
