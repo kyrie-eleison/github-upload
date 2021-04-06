@@ -32,6 +32,8 @@
 // character arrays vs character pointers
 // array -> elements can be modified / if a pointer is assigned a string literal, it cannot be changed
 // (this may be because when a pointer merely points to a literal, the literal already has its place in the memory)
+// (see: https://stackoverflow.com/questions/9436781/c-string-array-initialization-is-this-mutable)
 // array -> other arrays cannot be assigned / pointer -> other pointer value could be assigned
 // in a nutshell, both string as an array and a string literal are 'char array's, buy a string literal has its own place beforehand
 // -> that's why it cannot be mutated
+
