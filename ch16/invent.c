@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "readline.h"
+#include "./readline.h"
 
 #define NAME_LEN 25
 #define MAX_PARTS 100
@@ -10,7 +10,7 @@ struct part {
     int on_hand;
 } inventory[MAX_PARTS];
 
-in num_parts = 0;
+int num_parts = 0;
 
 int find_part(int number);
 void insert(void);
@@ -60,7 +60,7 @@ void insert(void)
 {
     int part_number;
 
-    if (num_part == MAX_PARTS) {
+    if (part_number == MAX_PARTS) {
         printf("DB is full; can't add more parts. \n");
         return;
     }
