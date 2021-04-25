@@ -7,12 +7,20 @@
 ## Declaring a Node Type
 1. we'll use ``struct`` to define a node
 
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> 78190cb1ca95746168d1ea295480e1b5d95b8482
 struct node {
     int value;
     struct node *next;
 }
+<<<<<<< HEAD
 ``
+=======
+```
+>>>>>>> 78190cb1ca95746168d1ea295480e1b5d95b8482
 
 (remark)
 - when a structure has a member that points to the same kind of structure, like above, we are required to use a struct tag
@@ -24,6 +32,7 @@ struct node *first = NULL; // it is empty at the moment
 ```
 
 ## Creating Nodes
+<<<<<<< HEAD
 1. allocate memory for the node
 2. store data into the node
 3. inserting the node into the list
@@ -54,3 +63,14 @@ struct node *first = NULL; // it is empty at the moment
 1. locating the node to be deleted
 2. altering the previous node so that it 'bypasses' the deleted node
 3. calling `free` to reclaim the space occupied by the deleted node
+=======
+
+## The -> Operator
+
+## Inserting a Node at the Beginning of a Linked List
+
+## Searching a Linked List
+
+## Deleting a Node from a Linked List
+
+>>>>>>> 78190cb1ca95746168d1ea295480e1b5d95b8482
